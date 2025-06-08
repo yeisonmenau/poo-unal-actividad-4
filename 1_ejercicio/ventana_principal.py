@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from notas import Notas  # Asegúrate de tener este archivo 'notas.py' con la clase Notas que mostraste
+from notas import Notas
 
 class VentanaPrincipal:
     def __init__(self, root):
@@ -12,7 +12,6 @@ class VentanaPrincipal:
         # Lista para guardar los campos de entrada
         self.campos = []
 
-        # Etiquetas y entradas creadas manualmente
         self.nota1 = tk.Label(root, text="Nota 1:")
         self.nota1.place(x=20, y=20)
         self.campo1 = tk.Entry(root)
